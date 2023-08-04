@@ -6,6 +6,10 @@ This project implements a basic database-like storage solution in Python. It is 
 
 The main objective of this project is to create a simplified database-like system that demonstrates essential concepts, including key-value storage, sorted blocks, temporary and persistent storage, and basic read and write operations.
 
+## Motivation
+
+The motivation behind this project arose during my study of data-intensive applications and the concept of SSTables (Sorted String Tables). As I delved into SSTables, I was intrigued by their fundamental role in various database systems for efficient data storage and retrieval. This led me to embark on a journey to comprehend the core principles of SSTables and their implementations.
+
 ## Features
 
 - **Line Class:** Represents individual key-value pairs.
