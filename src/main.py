@@ -192,6 +192,7 @@ class PersistentRead:
         return self._block.get(key)
     
     def merge(self, block: SortedBlock) -> None:
+        self.clear()
         self._block.merge(block)
         with open(self._read_file, "w") as f:
             self._block.write(f)
